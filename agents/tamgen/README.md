@@ -85,7 +85,7 @@ User Prompt
 | **Azure subscription** | An active Azure subscription with permissions to create resources. |
 | **Azure AI Foundry project** | A deployed Azure AI Foundry project with agent capabilities enabled. |
 | **Model deployment** | A chat-completion model deployed and referenced as `{{CHAT-MODEL}}`. |
-| **GPU compute** | **Required.** CUDA 12.1-compatible GPU node. Recommended SKU: `Standard_NC40ads_H100_v5`. |
+| **GPU compute** | **Required.** CUDA 12.1-compatible GPU node. Recommended: NVIDIA A10, L4, A100, H100 or equivalent. |
 | **Network access** | Required for PDB structure download from RCSB servers. Not required if protein structures are pre-uploaded to `/input/`. |
 
 ## Configuration
